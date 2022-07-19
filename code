@@ -5,9 +5,10 @@ int main(){
 	int x;
 	
 	printf("introduce un numero del 1 al cuatro: ");
-	scanf("%i",&x);
+	scanf("%i",&x);//escanear la valeable
 	
 	switch(x){
+                //caso1:en caso de que se introdusca 1 y ssusesivamente
 		case 1:printf("lunes");break;
 		case 2:printf("martes");break;
 		case 3:printf("miercoles");break;
